@@ -1,0 +1,33 @@
+{
+  "name": "@wogjs/adapter-file",
+  "version": "0.1.0",
+  "description": "The FileAdapter reads and watches files on the local disk.",
+  "main": "src/FileAdapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wog-js/adapter-file.git"
+  },
+  "keywords": [
+    "wogjs",
+    "adapter"
+  ],
+  "author": "Axel Rindle <mail@axelrindle.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wog-js/adapter-file/issues"
+  },
+  "homepage": "https://github.com/wog-js/adapter-file#readme",
+  "dependencies": {
+    "@wogjs/adapter": "github:wog-js/adapter",
+    "@wogjs/utils": "github:wog-js/utils",
+    "chokidar": "^3.5.1",
+    "debug": "^4.3.1",
+    "glob-all": "^3.2.1"
+  },
+  "devDependencies": {
+    "@wogjs/types": "github:wog-js/types"
+  }
+}
